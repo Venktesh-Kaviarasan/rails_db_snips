@@ -45,3 +45,9 @@ InvestorReports::FulfilmentReport.from("(#{payout_wise_rank}) as t").where("t.ra
                                         :investor_closing_principal_overdue, :investor_closing_interest_overdue, :ap, :rank)
                                  .map { |d| @transaction_map[d[1]] = (@transaction_map[d[0]] || []) << d }
 ```                                             
+
+
+ DAY 0 - 28,43,22,106 
+ REVISED - PREPAYMENT (2291962) + PRINCIPAL (281844801) =  28,41,36,763
+
+ https://pool-qa.credavenue.in/dav2/623ee04b1e642c14f7c3b89a/details-view

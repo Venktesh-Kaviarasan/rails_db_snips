@@ -1,0 +1,577 @@
+/** 
+* Paste one or more documents here
+*/
+{
+  "asset_class": "micro_finance",
+  "repayment_frequency_mapping": {
+    "weekly": "W",
+    "fortnightly": "F",
+    "monthly": "Monthly",
+    "quarterly": "Q",
+    "halfyearly": "H",
+    "yearly": "Y"
+  },
+  "psl_mapping": {},
+  "kyc_type_mapping": {},
+  "sub_column_uniq_value": {},
+  "failure_data": {},
+  "validation_summary": {
+    "validated": 3,
+    "errors": 0,
+    "warnings": 0
+  },
+  "static_columns": {
+    "state_name": {
+      "mandatory": false,
+      "selected": true
+    }
+  },
+  "dynamic_columns": {
+    "lalith": {
+      "data_type": "number",
+      "mandatory": false,
+      "db_column_name": "number_1",
+      "selected": false,
+      "format": "Lakhs"
+    },
+    "sarah": {
+      "data_type": "string",
+      "mandatory": false,
+      "db_column_name": "string_1",
+      "selected": false
+    }
+  },
+  "dynamic_db_loan_column_name_mapping": {
+    "number_1": null,
+    "number_2": null,
+    "number_3": null,
+    "number_4": null,
+    "number_5": null,
+    "number_6": null,
+    "number_7": null,
+    "number_8": null,
+    "number_9": null,
+    "number_10": null,
+    "number_11": null,
+    "number_12": null,
+    "number_13": null,
+    "number_14": null,
+    "number_15": null,
+    "number_16": null,
+    "number_17": null,
+    "number_18": null,
+    "number_19": null,
+    "number_20": null,
+    "string_1": null,
+    "string_2": null,
+    "string_3": null,
+    "string_4": null,
+    "string_5": null,
+    "string_6": null,
+    "string_7": null,
+    "string_8": null,
+    "string_9": null,
+    "string_10": null,
+    "string_11": null,
+    "string_12": null,
+    "string_13": null,
+    "string_14": null,
+    "string_15": null,
+    "string_16": null,
+    "string_17": null,
+    "string_18": null,
+    "string_19": null,
+    "string_20": null,
+    "date_1": null,
+    "date_2": null,
+    "date_3": null,
+    "date_4": null,
+    "date_5": null,
+    "date_6": null,
+    "date_7": null,
+    "date_8": null,
+    "date_9": null,
+    "date_10": null,
+    "date_11": null,
+    "date_12": null,
+    "date_13": null,
+    "date_14": null,
+    "date_15": null,
+    "date_16": null,
+    "date_17": null,
+    "date_18": null,
+    "date_19": null,
+    "date_20": null,
+    "boolean_1": null,
+    "boolean_2": null,
+    "boolean_3": null,
+    "boolean_4": null,
+    "boolean_5": null,
+    "boolean_6": null,
+    "boolean_7": null,
+    "boolean_8": null,
+    "boolean_9": null,
+    "boolean_10": null,
+    "boolean_11": null,
+    "boolean_12": null,
+    "boolean_13": null,
+    "boolean_14": null,
+    "boolean_15": null,
+    "boolean_16": null,
+    "boolean_17": null,
+    "boolean_18": null,
+    "boolean_19": null,
+    "boolean_20": null
+  },
+  "customer_invite": {},
+  "investor_id": "5ac36f872f2b172844026a46",
+  "_type": "PoolFile::MasterClientData::McdTemplate",
+  "ready_for_sub_mapping": false,
+  "sub_column_mapped": true,
+  "sub_column_psl_mapped": false,
+  "sub_column_kyc_mapped": false,
+  "last_updated_by": {
+    "$oid": "6204ef76b1be78001c15e9b4"
+  },
+  "updated_at": {
+    "$date": {
+      "$numberLong": "1652340485517"
+    }
+  },
+  "created_at": {
+    "$date": {
+      "$numberLong": "1649839845398"
+    }
+  },
+  "created_by": {
+    "$oid": "6204ef76b1be78001c15e9b4"
+  },
+  "customer_id": "5b63fb7981d7a674b60825b9",
+  "document_content_type": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+  "document_file_name": "sample.xlsx",
+  "document_file_size": 12822,
+  "document_updated_at": {
+    "$date": {
+      "$numberLong": "1649840729000"
+    }
+  },
+  "ready_for_preview": true,
+  "sheet_mappers": [
+    {
+      "sheet_name": "Sheet1",
+      "header_row": 0,
+      "end_row": 4,
+      "column_map": {
+        "loan_number": "AGREEMENTNO",
+        "repayment_frequency": "Repayment Frequency",
+        "branch_name": "Loan Branch",
+        "district_name": "Property City",
+        "religion": "not_available",
+        "caste": "not_available",
+        "customer_type": "Borrower Name",
+        "first_installment_date": "EMI Start Dt.",
+        "interest_rate": "Original Rate of Intt.",
+        "pos": "Present Outstanding 30 Nov 2018",
+        "remaining_installments": "Total EMI Due(No.)",
+        "state_name": "Property State"
+      },
+      "dependent_column_map": {}
+    }
+  ],
+  "sheet_metadata": [
+    {
+      "sheet_name": "Sheet1",
+      "end_row": 4,
+      "rows": [
+        [
+          "S.No.",
+          "AGREEMENTNO",
+          "Loan Branch",
+          "Borrower Name",
+          "Date of Birth",
+          "Gender",
+          "Meritial Status",
+          "CB Relationship with Borrower",
+          "Contact No.",
+          "product",
+          "PAN No.",
+          "Aadhar No.",
+          "Voter ID No./ Passport No.",
+          "Borrower Address",
+          "Address PIN",
+          "Co-Borrower Name",
+          "Co-Borrower Date of Birth",
+          "Gender(Co-Bor)",
+          "Meritial Status (Co-Bor)",
+          "Contact No. (Co-Bor)",
+          "PAN No. (Co-Bor)",
+          "Aadhar No.(Co-Bor)",
+          "Voter ID No./ Passport No. (Co-Bor.)",
+          "Co- Borrower Address",
+          "Co-Bor. Address PIN",
+          "CIBIL Score (Borroer) - Current",
+          "CIBIL Score (Co-Borroer)",
+          "Category(Salarised/ Self Employee)",
+          "Property Address-1",
+          "Property Address-2",
+          "Property City",
+          "Property PIN",
+          "Property State",
+          "Builder Name",
+          "Property Age",
+          "Building Area (Sq. Ft.)",
+          "Dt. Of Sanction",
+          "Dt. Of Ist Disbursement",
+          "Dt. Of Final Disbursement",
+          "Moratorium Period (upto)",
+          "Original Loan Tenor",
+          "Residual Tenor",
+          "Sanction Amt.",
+          "Total Disbursed Amt.",
+          "Present Outstanding 30 Nov 2018",
+          "Original Rate of Intt.",
+          "Present Rate of Intt.",
+          "EMI Start Dt.",
+          "EMI Amt. ",
+          "Total EMI Due(No.)",
+          "Seasoning",
+          "Total EMI Due(Amt.)",
+          "Total EMI recovered (Amt.)",
+          "Any overdue as on pool cut off Dt. 30 Nov 2018",
+          "Wheather NPA/ restructruing in past",
+          "Property Desc.(Residencial/ Comm.)",
+          "Property Value",
+          "Property Valuation Dt.",
+          " Adv. Search Report Dt.",
+          "LTV ratio",
+          "Detail of Title Deed (Property Papers)",
+          "CERSAI Security ID",
+          "CERSAI Asset ID",
+          "Repayment Frequency",
+          "Restrcutured",
+          "Moratorium",
+          "CIBIL"
+        ],
+        [
+          "1",
+          "kgf01",
+          "AHMEDABAD",
+          "RAJESH RAMESHBHAI SHARMA",
+          {
+            "$date": {
+              "$numberLong": "205286400000"
+            }
+          },
+          "M",
+          "M",
+          null,
+          null,
+          "AH",
+          "APCPS1979M",
+          null,
+          null,
+          "38/B  NILKANTH SOCIETY  NR. SHIVPARK SOCIETY  B/H. RAM RAJYA NAGAR  AMRAIWADI AHMEDABAD GUJARAT-380026",
+          "380026",
+          "SANTOSHBEN RAJESHBHAI SHARMA",
+          "4/23/1976",
+          "F",
+          "M",
+          null,
+          "ERQPS1648M",
+          null,
+          null,
+          "38/B  NILKANTH SOCIETY  NR. SHIVPARK SOCIETY  B/H. RAM RAJYA NAGAR  AMRAIWADI AHMEDABAD GUJARAT-380026",
+          "380026",
+          "817",
+          null,
+          "SELF EMPLOYED NON PROFESSIONAL",
+          "78  UMANG HOMES  OPP. ENGINEERING COLLEGE  NARODA-DEHGAM ROAD  VEHLAL   AHMEDABADGUJARAT-380025",
+          "-",
+          "AHMEDABAD",
+          "380025",
+          "GUJARAT",
+          null,
+          null,
+          "882",
+          {
+            "$date": {
+              "$numberLong": "1395187200000"
+            }
+          },
+          {
+            "$date": {
+              "$numberLong": "1395187200000"
+            }
+          },
+          {
+            "$date": {
+              "$numberLong": "1454112000000"
+            }
+          },
+          "NA",
+          "287",
+          "254",
+          "1010000",
+          "1010000",
+          964616.63,
+          10.5854,
+          11.4,
+          {
+            "$date": {
+              "$numberLong": "1457136000000"
+            }
+          },
+          10084,
+          33,
+          33,
+          332772,
+          332772,
+          0,
+          "NO",
+          "Residential",
+          1192400,
+          null,
+          null,
+          84.7,
+          null,
+          "400010928659 ",
+          "200010907017",
+          "Monthly",
+          "No",
+          "No",
+          "800"
+        ],
+        [
+          "2",
+          "kgf02",
+          "AHMEDABAD",
+          "NIRANJANBHAI RASIKLAL PATEL",
+          {
+            "$date": {
+              "$numberLong": "-188611200000"
+            }
+          },
+          "M",
+          "M",
+          null,
+          null,
+          "AH",
+          "AFJPP0132L",
+          null,
+          null,
+          "A4 588-590 TO 596 GAYATRI NR BALIADEV MANDIR LAMBHA AHMEDABAD GUJARAT-382405",
+          "382405",
+          "SUBHADRABEN NIRANJANBHAI PATEL",
+          {
+            "$date": {
+              "$numberLong": "-20390400000"
+            }
+          },
+          "F",
+          "M",
+          null,
+          "-",
+          null,
+          null,
+          "A4 588-590 TO 596 GAYATRI BUNGLOWS NR BALIADEV MANDIR LAMBHA AHMEDABAD GUJARAT-382405",
+          "382405",
+          "802",
+          null,
+          "SELF EMPLOYED NON PROFESSIONAL",
+          "H-103  STAVAN PARISHRAY-2  AHED GOTA CHOWKDI  NR SILVER GALLERY  GOTA   AHMEDABADGUJARAT-382481",
+          "-",
+          "AHMEDABAD",
+          "382481",
+          "GUJARAT",
+          null,
+          null,
+          "675",
+          {
+            "$date": {
+              "$numberLong": "1422662400000"
+            }
+          },
+          {
+            "$date": {
+              "$numberLong": "1422662400000"
+            }
+          },
+          {
+            "$date": {
+              "$numberLong": "1422662400000"
+            }
+          },
+          "NA",
+          "187",
+          "142",
+          "1400000",
+          "1400000",
+          1220544.13,
+          10.7505,
+          11.64959,
+          {
+            "$date": {
+              "$numberLong": "1425513600000"
+            }
+          },
+          15912,
+          45,
+          45,
+          716040,
+          716040,
+          0,
+          "NO",
+          "Residential",
+          2025000,
+          null,
+          null,
+          69.14,
+          null,
+          "400018888985 ",
+          "200018846953",
+          "Monthly",
+          "No",
+          "No",
+          "800"
+        ],
+        [
+          "3",
+          "kgf03",
+          "AHMEDABAD",
+          "MADHUBHAI DHIRUBHAI PATEL",
+          {
+            "$date": {
+              "$numberLong": "173404800000"
+            }
+          },
+          "M",
+          "M",
+          null,
+          null,
+          "AH",
+          "CHHPP1279G",
+          null,
+          null,
+          "F/102 SAHAJ RESIDENCY  OPP PANDAV VADI  NR NIKOL TALAV NIKOL AHMEDABAD GUJARAT-382350",
+          "382350",
+          "MUKTABEN MADHUBHAI PATEL",
+          "12/18/1975",
+          "F",
+          "M",
+          null,
+          "-",
+          null,
+          null,
+          "F/102 SAHAJ RESIDENCY  OPP PANDAV VADI  NIKOL TALAV NIKOL AHMEDABAD GUJARAT-382350",
+          "382350",
+          "749",
+          null,
+          "SELF EMPLOYED NON PROFESSIONAL",
+          "F- 102  SAHAJ  RESIDENCY  NR NIKOLGAM TALAV  NIKOL GAM TO NIKOL TALAV ROAD  NIKOL   AHMEDABADGUJARAT-382350",
+          "-",
+          "AHMEDABAD",
+          "382350",
+          "GUJARAT",
+          null,
+          null,
+          "1322",
+          {
+            "$date": {
+              "$numberLong": "1429833600000"
+            }
+          },
+          {
+            "$date": {
+              "$numberLong": "1429833600000"
+            }
+          },
+          {
+            "$date": {
+              "$numberLong": "1429833600000"
+            }
+          },
+          "NA",
+          "260",
+          "218",
+          "1150000",
+          "1150000",
+          1066851.12,
+          9.9171,
+          10.65,
+          {
+            "$date": {
+              "$numberLong": "1433462400000"
+            }
+          },
+          11098,
+          42,
+          42,
+          466116,
+          466116,
+          0,
+          "NO",
+          "Residential",
+          2412650,
+          null,
+          null,
+          47.67,
+          null,
+          "400016843400 ",
+          "200016805406",
+          "Monthly",
+          "No",
+          "No",
+          "800"
+        ]
+      ]
+    }
+  ],
+  "mcd_column_mapping_history": {
+    "loan_number": [
+      "AGREEMENTNO"
+    ],
+    "repayment_frequency": [
+      "Repayment Frequency"
+    ],
+    "branch_name": [
+      "Loan Branch"
+    ],
+    "district_name": [
+      "Property City"
+    ],
+    "religion": [
+      "not_available"
+    ],
+    "caste": [
+      "not_available"
+    ],
+    "customer_type": [
+      "Borrower Name"
+    ],
+    "first_installment_date": [
+      "EMI Start Dt."
+    ],
+    "interest_rate": [
+      "Original Rate of Intt."
+    ],
+    "pos": [
+      "Present Outstanding 30 Nov 2018"
+    ],
+    "remaining_installments": [
+      "Total EMI Due(No.)"
+    ],
+    "disbursement_date": [
+      "Dt. Of Final Disbursement"
+    ],
+    "state_name": [
+      "Property State"
+    ],
+    "lalith": [
+      "Sanction Amt."
+    ],
+    "sarah": [
+      "Loan Branch"
+    ]
+  },
+  "validation": "completed"
+}
